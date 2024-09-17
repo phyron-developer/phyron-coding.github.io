@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+#welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-size: 2em;
+    animation: fadeIn 1s ease-in-out, fadeOut 1s ease-in-out 2s forwards;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+#mainContent{
+    display: none;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+  }
+  body.no-scroll {
+    overflow: hidden; /* Prevent scrolling */
+}
+
+/* About container design  */
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* display:none; */
+    padding: 50px 50px;
+}
+.container-box{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.profile-container{
+    width: 35%;
+}
+
+
+
+
+.img-pro{
+    display: grid;
+    border-radius: 5px;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    padding: 40px 40px;
+    border: 1px solid rgb(139, 139, 139);
+}
+.img-pro h3{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.img-pro img{
+    display: flex;
+    margin: auto;
+    width: 250px;
+    border-radius: 50px;
+}
+
+/* Show my image for design */
+
+.comment-container{
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+.comment-box{
+    width: 300px;
+    height: 300px;
+    padding: 0px 20px;
+    margin-top: 7%;
+    margin-left: 27%;
+    border-radius: 3px;
+}
+.comment-box img{
+    width: 600px;
+    height: 600px;
+}
+/* About follow design  */
+.follow{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.greatful{
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    margin-top: 30px;
+    padding: 15px 15px;
+    border-radius: 3px;
+}
+.detail-great{
+    padding: 10px 10px;
+    margin-top: 20px;
+    width: 100%;
+    background: black;
+    border-radius: 3px;
+}
+.reply{
+    margin-top: 20px;
+}
+.reply button{
+    padding: 7px 15px;
+    border-radius: 3px;
+    background: rgb(48, 216, 26);
+}
+
+   /* We have to note for design website          */
+
+.reply-alert{
+    position: fixed;
+    background-color: rgba(32, 32, 32, 0.743);
+    display: none; /* Initially hidden */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000; /* Ensure it's above other elements */
+}
+.ra{
+    border: 1px solid rgb(92, 92, 92);
+    border-radius: 3px;
+    margin-top: 20%;
+    margin-left: 40%;
+    background-color: rgb(0, 0, 0);
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+}
+.icon{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.ra h3{
+    margin-top: 10px;
+}
+.ra button{
+    margin-top: 25px;
+    cursor: pointer;
+}
+.ra input{
+    color: white;
+    background-color: rgb(62, 62, 62);
+    margin-top: 10px;
+    padding: 10px 10px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+.profile-describe{
+    width: 60%;
+    /* background-color: rgb(26, 26, 26); */
+}
+.des-box{
+    padding: 0px 0px 0px 55px;
+    border-left: 1px solid gray;
+    /* background-color: rgb(97, 97, 97); */
+}
+.education{
+    padding: 15px 15px;
+    background-color: rgb(36, 36, 36);
+    border-radius: 3px;
+}
+.primary{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.des-primary{
+    margin-top: 20px;
+    padding: 10px 10px;
+}
+.pri-p{
+    padding: 10px 10px;
+    background: black;
+}
+
+.experience{
+    margin-top: 20px;
+    padding: 15px 15px;
+    background-color: rgb(33, 33, 33);
+}
+
+
+
+
+/* About Servey button Design  */
+.servey {
+    margin-top: 30px;
+}
+
+.btn-servey button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(0, 207, 0);
+    color: white;
+    cursor: pointer;
+}
+
+   /* We have to note for design website          */
+
+.servey-ap {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.549);
+    display: none; /* Initially hidden */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10; /* Ensure it's above other elements */
+}
+.servey-box {
+    border: 1px solid rgb(111, 111, 111);
+    background-color: rgba(42, 42, 42, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    margin-top: 15%;
+    margin-left: 33%;
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title i {
+    font-size: 25px;
+    cursor: pointer;
+}
+.form-survey textarea{
+    margin-top: 30px;
+    width: 100%;
+    color: white;
+    background:rgb(52, 52, 52);
+    padding: 10px 10px;
+    height: 250px;
+}
+.b button{
+    margin-top: 20px;
+    float: left;
+}
+/* Class to prevent scrolling */
+.no-scroll {
+    overflow: hidden;
+}
+
+
+/* size of screen ipad and small phone  */
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .profile-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-pro {
+        text-align: center;
+    }
+
+    .follow {
+        text-align: center;
+    }
+
+    .greatful {
+        text-align: center;
+    }
+
+    .education, .experience {
+        margin: 0;
+    }
+
+    .des-box {
+        padding: 10px;
+    }
+
+    h2, h3 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    #welcome {
+        font-size: 1.5em;
+    }
+
+    .reply-alert {
+        width: 90%;
+    }
+
+    .servey-ap {
+        width: 90%;
+    }
+
+    input[type="text"], textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+    }
+}

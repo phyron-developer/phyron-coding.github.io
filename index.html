@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/FORM2/flexbox-layout.css">
+    <title>Document</title>
+</head>
+<body>
+   <!-- <div id="welcome">
+      Welcome to Phyron-Coding
+  </div> -->
+    <div class="container">
+        <header>
+            <div class="header-include">
+               <div class="header-left">
+                  <i class="fa-solid fa-bars" id="toggle-button" style="cursor: pointer;"></i>
+                  <div class="aside-left" id="aside-left">
+                     <div class="aside-above">
+                        <div class="close">
+                           <i class="fa-brands fa-apple"></i>
+                           <i class="fa-solid fa-circle-xmark" id="Closebtn"></i>
+                        </div>
+                        <div class="navbar-aside-left">
+                           <li><a href="">Home</a></li>
+                           <li><a href="">Home</a></li>
+                           <li><a href="">Home</a></li>
+                           <li><a href="">Home</a></li>
+                           <li><a href="">Home</a></li>
+                           <li><a href="">Home</a></li>
+                        </div>
+                     </div>
+                     <div class="aside-below">
+                        <div class="navbar-below">
+                           <li><a href="">Explore</a></li>
+                           <li><a href="">Homeplace</a></li>
+                        </div>
+                     </div>
+                  </div>
+
+
+                  <i class="fa-solid fa-p" style="cursor: pointer;"></i>
+                  <p>PHYRON</p>
+               </div>
+
+
+
+               <div class="header-right">
+                  <div class="type">
+                     <i class="fa-solid fa-magnifying-glass"></i>
+                     <input type="text" name="Search" placeholder="Search...">
+                  </div>
+                  <div class="follow">
+                     <button>Follow</button>
+                  </div>
+                  <div class="language">
+                     <li>
+                        <i class="fa-solid fa-language"></i>
+                        <ul class="language-drop">
+                           <div class="edit-lang">
+                                 <a href="">Khmer</a>
+                                 <a href="">English</a>
+                                 <a href="">Chinese</a>
+                                 <a href="">Further</a>
+                           </div>
+                        </ul>
+                     </li>
+                  </div>
+                  <div class="message">
+                     <li><a href=""><i class="fa-solid fa-circle-half-stroke"></i></a>
+                     <ul class="message-drop">
+                        <div class="dark-light">
+                           <li id="dark"><a href="">Dark</a></li>
+                           <li id="light"><a href="">Light</a></li>
+                        </div>
+                     </ul></li>
+                  </div>
+                  <div class="users">
+                     <i class="fa-solid fa-user"></i>
+                  </div>
+               </div>
+
+            </div>
+        </header>
+
+         <main>
+
+           <aside>
+            <div class="aside-navbar">
+               <div class="navbar-above-aside">
+                  <li><a href="">My Template Projects</a></li>
+                  <li><a href="">RUPP Document (IT)</a></li>
+                  <li><a href="">General English Document</a></li>
+                  <li><a href="">About Web Developer</a></li>
+                  <li><a href="">Chines Language Document</a></li>
+                  <li><a href="">Others Document</a></li>
+               </div>
+            </div>
+            <div class="navbar-below-aside">
+               <li><a href="/FORM2/flexbox-profile.html">About Me</a></li>
+               <li><a href="">Close Friend</a></li>
+               <li><a href="">My Business</a></li>
+               <li><a href="">Work Experience</a></li>
+               <li><a href="">Website (Involved IT)</a></li>
+               <li><a href="">Explore</a></li>
+            </div>
+            <div class="navbar-button-aside">
+               <li><a href="">Esit this page</a></li>
+            </div>
+           </aside>
+
+           <article>
+               <div class="content">
+
+                  <div class="home">
+
+                     <div class="home-above">
+                        <h2>Skills</h2>
+                        <div class="feedback">
+                           <a href="" id="showfeedback">Feedback</a>
+                           <div class="feedback-box">
+                              <div class="feedbackclose">
+                                 <h2>Feedback</h2>
+                                 <i class="fa-solid fa-xmark" id="btnclosefeedback"></i>
+                              </div>
+                              <div class="feedback-form">
+                                 <div class="feedback-edit">
+                                    <div class="f1">
+                                       <label for="">Your name:</label><br>
+                                       <input  type="text" name="name" placeholder="Enter your name...">
+                                    </div>
+                                    <div class="f1">
+                                       <label for="">Your email:</label><br>
+                                       <input type="text" name="email" placeholder="Enter your email...">
+                                    </div>
+                                 </div>
+                                 <div class="text">
+                                    <label for="" id="l">Write your feedback to me :</label><br>
+                                    <textarea id="userInput" name="userInput" placeholder="Type your text here..."></textarea><br>
+                                    <button>Submit</button>
+                                 </div>
+                              </div>
+                           </div>
+                           <a href="">Filter</a>
+                        </div>
+                     </div>
+
+                     <div class="skill">
+                        <div class="skill-other">
+                           <p>This my other skills and involved Web Development </p>
+                           <h3>Skill involved :</h3>
+                           <li><a href="">IT Support</a></li>
+                           <li><a href="">Mobile App</a></li>
+                           <li><a href="">Network</a></li>
+                           <li><a href="">UX/UI Design</a></li>
+                           <li><a href="">Graphic Design</a></li>
+                           <h3>Enter skill U want to learn :</h3>
+                           <input type="text" name="input" id="input" placeholder="Enter your passionate..." style="padding: 10px 10px;"><br>
+                           <label for=""><input type="checkbox">8:00AM - 11:00AM</label><br>
+                           <label for=""><input type="checkbox">2:00PM - 5:00PM</label><br>
+                           <li><a href="https://t.me/+rtLQNge__0RhZjA9"><button>Join Group</button></a></li>
+                        </div>
+
+                        <div class="skill-language">
+                           <h4>This my language,  I can write advance program with these language.</h4>
+                           <p>I can write about Web development by my advance language, Maybe 4 years in order to clear know and I so happy with my efforts. </p>
+                           <div class="detail-language">
+                              <div class="detail1">
+                                 <p>phyron-developer / ReadMe.md</p>
+                                 <button>Create</button>
+                              </div>
+                              <div class="detail2">
+                                 <p>Languages : </p>
+                                 <p>1 - HTML (Hypertext Make up Language) </p>
+                                 <p>2 - CSS (Cascading Style Sheets)</p>
+                                 <p>3 - Tailwind CSS</p>
+                                 <p>4 - JavaScript</p>
+                                 <p>5 - ReactJS</p>
+                                 <p>6 - Node.js</p>
+                                 <p>7 - PHP (Hypertext Preprocessor)</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tools">
+                        <div class="td">
+                           <i class="fa-solid fa-screwdriver-wrench"></i>
+                           <p>Tools and assist of the Design</p>
+                        </div>
+                        <div class="tool-vscode">
+                           <div class="tool">
+                              <div class="vscode">
+                                 <p>This Website for help our of design Web Development.</p>
+                                 <div class="des-tool">
+                                    <i class="fa-brands fa-codepen"></i>
+                                    <p>This's websie for design, It helps ur for design website. You turn on browser and typing 'Codepen.com' and click on U will see a lot of template. </p>
+                                 </div>
+                                 <a href="https://codepen.io/"><button>Go</button></a>
+                              </div>
+                              <div class="vscode">
+                                 <p>This's VSCode application for write in order to design Web Development.</p>
+                                 <div class="des-tool">
+                                    <a href="">UIVerse.io</a>
+                                    <p>This's websie for design as well. You turn on browser and typing 'uiverse.com' and click on U will see a lot of template. </p>
+                                 </div>
+                                 <a href="https://uiverse.io/"><button>Go</button></a>
+                              </div>
+                           </div>
+                           <div class="tool">
+                              <div class="vscode">
+                                 <p>This's a application for help our of design Web Development. If you want to download this applicatiion U just click on button download.</p>
+                                 <div class="des-tool">
+                                    <img src="/FORM2/image.png" alt="">
+                                    <div class="application-vscode">
+                                       <h3>VSCode Application</h3>
+                                       <div class="window-mac-linux">
+                                          <div class="mac">
+                                             <p>Window</p>
+                                             <i class="fa-brands fa-windows"></i>
+                                             <a href="">Download</a>
+                                          </div>
+                                          <div class="mac">
+                                             <p>Max</p>
+                                             <i class="fa-brands fa-apple"></i>
+                                             <a href="">Download</i></a>
+                                          </div>
+                                          <div class="mac">
+                                             <p>Linux</p>
+                                             <i class="fa-brands fa-linux"></i>
+                                             <a href="">Download</a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <a href="https://code.visualstudio.com/download"><button>Download</button></a>
+                              </div>
+                              <div class="vscode">
+                                 <p>This's a application for help our of design Web Development. If you want to download this applicatiion U just click on button download.</p>
+                                 <div class="des-tool">
+                                    <img src="/FORM2/image copy.png" alt="">
+                                    
+                                 </div>
+                                 <a href=""><button>Go</button></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="you-tube-chanel">
+                        <div class="tittle-youtube">
+                           <i class="fa-brands fa-youtube"></i>
+                           <p>YouTube Chanel</p>
+                        </div>
+                        <div class="des-youtube">
+                           <h4>My Youtube Chanel</h4>
+                           <div class="U-flex">
+                              <div class="youtube-left">
+                                 <h3>YouTube Chanel</h3>
+                                 <p>&nbsp;&nbsp;&nbsp;My YouTube Chanel lecture only 5 Language. Per 1 video have second from 5 to 15s, So you easy to learn. You have to learn at least one video per day.</p>
+                                 <p>&nbsp;&nbsp;&nbsp;This my language to lecture in YouTube Chanel :</p>
+                                 <div class="lecture-language">
+                                    <p>Such as :</p>
+                                    <a href="">-> C Programming</a><br><br>
+                                    <a href="">-> C++</a><br><br>
+                                    <a href="">-> HTML(Basic - Advance)</a><br><br>
+                                    <a href="">-> CSS(Basic - Advance)</a><br><br>
+                                    <a href="">-> JavaScript (Basic)</a><br>
+                                 </div>
+                              </div>
+                              <div class="youtube-right">
+                                 <div class="youtube-img">
+                                    <img src="/FORM2/Screenshot 2024-09-14 at 9.45.59 at night.png" alt="">
+                                 </div>
+                                 <div class="title-U">
+                                    <h2>phyron-coding</h2>
+                                    <p>See my Youtube Chanel, U just click on this video you'll see my Youtube Chanel. Thanks for Subscribe my youtube chanel.</p>
+                                 </div>
+                                 <div class="video-youtube">
+                                    <!-- <source src="path/to/your-video.mp4" type="video/mp4"> -->
+                                     <img src="/FORM2/image copy 2.png" alt="">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="comment">
+                        <div class="comment-design">
+                           <button>Like&nbsp;&nbsp;<i class="fa-solid fa-thumbs-up"></i></button>
+                           <button id="showbtncomment">Comment&nbsp;&nbsp;<i class="fa-solid fa-comment-dots"></i></button>
+                           <div class="comment-container">
+                              <div class="comment-box">
+                                 <div class="comment-tittle">
+                                    <h3><i class="fa-solid fa-comment-dots"></i>&nbsp;&nbsp;Your comment</h3>
+                                    <i class="fa-solid fa-xmark"></i>
+                                 </div>
+                                 <div class="comment-input">
+                                    <textarea id="comment" name="comment" rows="4" placeholder="Enter your comment..." required></textarea>
+                                 </div>
+                                 <div class="comment-icon">
+                                    <div class="cmi">
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-regular fa-face-smile"></i>
+                                       <i class="fa-solid fa-camera"></i>
+                                       <i class="fa-solid fa-gift"></i>
+                                       <i class="fa-solid fa-icons"></i>
+                                    </div>
+                                    <div class="comment-send">
+                                       <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <button id="sharebtnshow">Share&nbsp;&nbsp;<i class="fa-solid fa-share"></i></button>
+                           <div class="share-container" id="sharecon">
+                              <div class="share-box">
+                                 <div class="share-title">
+                                    <span></span>
+                                    <h2>Share With</h2>
+                                    <i class="fa-solid fa-xmark" id="shareclose"></i>
+                                 </div>
+                                 <div class="share-to">
+                                    <h3>ចែករំលែកទៅកាន់</h3>
+                                 </div>
+                                 <div class="share-appli">
+                                    <div class="mess">
+                                       <div class="mes">
+                                          <i class="fa-brands fa-facebook"></i>
+                                       </div>
+                                       <div class="mes-title">
+                                          <p>Facebook</p>
+                                       </div>
+                                    </div>
+                                    <div class="mess">
+                                       <div class="mes">
+                                          <i class="fa-brands fa-facebook-messenger"></i>
+                                       </div>
+                                       <div class="mes-title">
+                                          <p>Messenger</p>
+                                       </div>
+                                    </div>
+                                    <div class="mess">
+                                       <div class="mes">
+                                          <i class="fa-solid fa-film"></i>
+                                       </div>
+                                       <div class="mes-title">
+                                          <p>Story</p>
+                                       </div>
+                                    </div>
+                                    <div class="mess">
+                                       <div class="mes">
+                                          <i class="fa-solid fa-file"></i>
+                                       </div>
+                                       <div class="mes-title">
+                                          <p>Link</p>
+                                       </div>
+                                    </div>
+                                    <div class="mess">
+                                       <div class="mes">
+                                          <i class="fa-brands fa-whatsapp" style="color: rgb(0, 174, 0);"></i>
+                                       </div>
+                                       <div class="mes-title">
+                                          <p>WhatsApp</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="comment-design">
+                           <button class="cmd">Dislike&nbsp;&nbsp;<i class="fa-solid fa-thumbs-down"></i></button>
+                        </div>
+                     </div>
+                  </div>
+
+
+                  <div class="sub-home">
+                     <div class="profile">
+                        <div class="profile-img">
+                           <img src="/PHOTO/mypic.jpeg" alt="">
+                        </div>
+                        <h2 class="phonphyron"><span>phon phyron</span></h2>
+                        <div class="profile-box">
+                           <h3>About Me:</h3>
+                           <p>&nbsp;&nbsp;&nbsp;My name's Phon Phyron, I come from prusat province and nowadays I'm 21 years old. I hvae one sister and one brother, my mother's factorer and my father's visabled person, I'm studying at <span>Royal University of Phnom Penh</span> and sophormore. I'm particularly passoinate about this skill when I was grade 10 at Otapong High School. My material status's single and I don't have a girlfriend yet.</p>
+                           <p  class="aboutmep"></p>
+                           <p>Skill: My skill's Web Developer</p>
+                           <p>Others Skill: Microsoft Office (Word, Excel, PowerPoint, AI Assistance, Canva, C Programming, Python, C++, and GitHub.) </p>
+                           <p>Experience: Automation Watering System, Products of Managment, Gemini Project, and my a lot of own projects with Web Development.</p>
+                        </div>
+
+
+                        <h3 style="display: flex; justify-content: center; align-items: center;">Contact Me </h3>
+                        <div class="profile-socail">
+                           <h4>Socail-Media</h4>
+                           <div class="socail-box">
+                              <div class="facebook">
+                                 <a href="https://web.facebook.com/phyronU"><i class="fa-brands fa-facebook"></i></a>
+                                 <p>Facebook</p>
+                              </div>
+                              <div class="facebook">
+                                 <a href="https://t.me/phyronu"><i class="fa-brands fa-telegram"></i></a>
+                                 <p>Telegram</p>
+                              </div>
+                              <div class="facebook">
+                                 <i class="fa-brands fa-instagram"></i>
+                                 <p>Instagram</p>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="profile-location">
+                           <h3>Location</h3>
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14443.339142682273!2d104.89528350215149!3d11.568437127368934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x20138e822e434660!2z4Z6f4Z624Z6A4Z6b4Z6c4Z634Z6R4Z-S4Z6Z4Z624Z6b4Z-Q4Z6Z4Z6X4Z684Z6Y4Z634Z6T4Z-S4Z6R4Z6X4Z-S4Z6T4Z-G4Z6W4Z-B4Z6J!5e1!3m2!1skm!2skh!4v1726282072868!5m2!1skm!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+           </article>
+           <div class="top">
+            <a href=""><i class="fa-solid fa-arrow-up"></i></a>
+           </div>
+
+        </main>
+     </div>
+
+     <script src="/FORM2/flexbox-layout.js"></script>
+</body>
+</html>
